@@ -2,7 +2,7 @@
 
 # Mój homepage
 
-Zapraszam na moją stronę: [Strona Domowa Łukasz WTF](https://lukaszjedrzejewski.github.io/homepage-gulp)
+Zapraszam na moją stronę: [Strona Domowa Łukasza w ramach szkolenia WTF](https://lukaszjedrzejewski.github.io/homepage-gulp)
 
 ## Jak uruchomić moją stronę lokalnie
 

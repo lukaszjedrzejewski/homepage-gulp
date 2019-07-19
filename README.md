@@ -1,5 +1,7 @@
 # wtf-gulp-starter
 
+![screenshot]()
+
 `npm install -g gulp-cli`
 
 `npm install`

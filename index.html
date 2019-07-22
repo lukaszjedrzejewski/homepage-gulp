@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="description" content="Description" />
+
+  <!-- Title -->
+  <meta property="og:title" content="" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="top">
+    <h1 class="header__title header__title--js ">Łukasz Jędrzejewski - Strona domowa</h1>
+    <button class="header__button header__button--js">Zmiana</button>
+  </header>
+
+  <nav class='navigation'>
+    <ul class="navigation__list navigation__list--js">
+
+      <li class="navigation__item"><a href="" class="navigation__link"></a>Start</li>
+      <li class="navigation__item"><a href="#diary" class="navigation__link"></a>Diary</li>
+      <li class="navigation__item"><a href="#" class="navigation__link"></a>Podstrona 2</li>
+      <li class="navigation__item"><a href="#" class="navigation__link"></a>Podstrona 3</li>
+      <li class="navigation__item"><a href="#" class="navigation__link"></a>Podstrona 4</li>
+    </ul>
+  </nav>
+  </header>
+
+
+  <button class="navigation__switcher navigation__switcher--js" aria-label="Otwórz menu">≣</button>
+
+
+  <!-- Main -->
+  <main class="main">
+
+    <section class="about">
+      <div class="about__box"></div>
+      <h2 class="about__header">Kim jestem?</h2>
+      <p class="about__paragraph"><img class="about__picture" src="assets/img/cover.png" alt="Portret Mr. Oizo">Hej!
+        Na co dzień uszę wspaniałych ludzi tajnej sztuki frontendu i prację w firmie o
+        cięzko zapisywlalnej nazwie
+        <strong>EYEDEA</strong>. Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>earum!</b>,
+        <br>
+        <a class="about_link" href="#pamietniczek">Przejdź do pamiętniczka</a>
+      </p>
+      <input class="focus focus--js" type="text">
+    </section>
+
+    <!-- Diary -->
+    <div class="content">
+      <section class="diary" id="diary">
+        <h2 class="diary__header">Pamiętniczek</h2>
+        <div class="grid">
+          <section class="day">
+            <h3 class="day__header">Jak tworzyć prawidłowego HTML-a?</h3>
+            <p class="day__content"> Internecie aż roi się od poradników HTML, specyfikacji i mniej lub bardziej
+              udanych
+              tutoriali. Dlatego uznaliśmy, że interesujące będzie zaprezentowanie wpisu z Google Webmaster
+              Central
+              Blog na temat semantyki znaczników HTML. Google wielokrotnie deklarowało, że walidacja (zgodność ze
+              standardami W3C) nie ma bezpośredniego wpływu na ocenę strony w rankingu wyników wyszukiwania, a
+              algorytmy radzą sobie z indeksowaniem nie do końca prawidłowej struktury dokumentów HTML. Jednak
+              stosowanie znaczników HTML zgodnie z ich przeznaczeniem to trochę inna bajka, ponieważ pozwala
+              wyszukiwarkom na zrozumienie znaczenia poszczególnych elementów na stronie. <br>
+              <a class="day_link" href="podstrona.html">Przejście do artykułu</a>
+            </p>
+            <p class="day__content day__content--mini day__content--js">Test modyfikacji</p>
+          </section>
+
+          <section class="day">
+            <h3 class="day__header">Formatowanie tekstu (czcionek) w CSS</h3>
+            <p class="day__content">Poznajmy najpopularniejsze właściwości CSS z pomocą których wpłyniemy na
+              najważniejsze
+              aspekty wyglądu tekstu na stronie. Plan wykładu: krój czcionki (font-family), rozmiar (font-size),
+              waga
+              (font-weight), styl (font-style), wyrównanie (text-align), zmiana wielkości liter (text-transform),
+              dekoracja (text-decoration), odstęp pomiędzy znakami (letter-spacing), wysokość linii tekstu
+              (line-height).<br>
+              <a class="day_link" href="podstrona.html">Przejście do artykułu</a>
+            </p>
+          </section>
+          <section class="day">
+            <h3 class="day__header">Metody podpięcia arkusza CSS do pliku HTML</h3>
+            <p class="day__content"> Istnieją trzy główne sposoby zainkludowania zapisów CSS do dokumentu HTML. W
+              związku z
+              tym istnieje także hierarchia ważności stylów. W przypadku powtarzających się selektorów to miejsce
+              podpięcia zdecyduje o tym, który styl obowiązuje - zasada ogólna jest taka, iż to najpóźniej
+              zdefiniowany
+              w
+              kodzie styl jest uważany za obowiązujący, gdyż "przesłania" poprzednie zapisy. Ale po kolei -
+              najpierw
+              poznajmy trzy sposoby inkludowania stylów. <br>
+              <a class="day_link" href="podstrona.html">Przejście do artykułu</a>
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <div class="add add--js"></div>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#top" class="footer__link">Na górę</a>
+    Strona domowa Łukasza Jędrzejwskiego, wszystkie treści są efektem szkolenia WTF: Co ten frontend?
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
